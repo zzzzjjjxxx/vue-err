@@ -5,3 +5,11 @@
 子组件 ：可以直接用，然后要在props里面声明一下类型。
 子组件怎么传递数据：在方法里面写一个$emit（‘监听的东西’，要传的数据）方法。
 父组件需要 在一个标签上 绑定 v-on：方法名=“监听的东西”，在当前页面写一下方法（需要传参数进去）。
+# vue-err2
+state里面定义的变量
+comouted里面写一下可以在各个页面中应用
+mountains和ations是可以写方法，后者可以异步。
+getters是过滤器，里面的方法是必须经过某一个步骤的过滤器。
+# vue-err3
+res=>{} this的指向是外层的this 
+function(res) this的指向是function本身
